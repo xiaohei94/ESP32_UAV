@@ -1,0 +1,15 @@
+/*
+ * remote_control.h
+ *
+ *  Created on: 2023年1月25日
+ *      Author: liguanxi
+ */
+
+#ifndef COMPONENTS_EXTERNAL_COMMUNICATION_REMOTE_CONTROL_INCLUDE_REMOTE_CONTROL_H_
+#define COMPONENTS_EXTERNAL_COMMUNICATION_REMOTE_CONTROL_INCLUDE_REMOTE_CONTROL_H_
+
+
+void remote_init(void);
+void rc_Send_data(void); //遥控器数据发送
+
+#endif /* COMPONENTS_EXTERNAL_COMMUNICATION_REMOTE_CONTROL_INCLUDE_REMOTE_CONTROL_H_ */

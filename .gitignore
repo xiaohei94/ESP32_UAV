@@ -1,0 +1,29 @@
+# ESP32/Arduino 编译产物（本地保留，推送排除）
+build/
+.pioenvs/
+.piolibdeps/
+cmake-build-*/
+*.elf
+*.bin
+*.hex
+*.map
+*.o
+*.d
+
+# IDE/编辑器配置（本地保留，推送排除）
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# Windows 系统文件（本地保留，推送排除）
+Thumbs.db
+.DS_Store
+*.tmp
+~$*
+
+# 超大文件（如固件、数据集，按需添加）
+*.bin
+*.zip
+*.7z

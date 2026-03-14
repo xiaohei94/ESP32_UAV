@@ -1,0 +1,15 @@
+/*
+ * control.h
+ *
+ *  Created on: 2023年2月13日
+ *      Author: liguanxi
+ */
+
+#ifndef COMPONENTS_FLIGHT_CONTROL_CONTROL_INCLUDE_CONTROL_H_
+#define COMPONENTS_FLIGHT_CONTROL_CONTROL_INCLUDE_CONTROL_H_
+
+
+
+void control_init(void);
+
+#endif /* COMPONENTS_FLIGHT_CONTROL_CONTROL_INCLUDE_CONTROL_H_ */

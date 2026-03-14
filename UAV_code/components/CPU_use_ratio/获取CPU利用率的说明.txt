@@ -1,0 +1,9 @@
+
+vTaskList(),vTaskGetRunTimeStats()这两个函数并非直接可以用，在使用前需要打开3个宏定义开关，步骤如下
+1.打开espressif-ide安装时自带的软件ESP-IDF4.4CMD 这个4.4版本也并非需要一模一样是这个软件就行(黑色图标)
+2.填写cd 加项目地址例如 cd C:\Users\liguanxi\Desktop\LiGuanxi-UAV 点击回车(作用就是进入对应的项目)
+3.填写idf.py menuconfig 点击回车进入配置菜单(界面是两边蓝中间灰的)
+4.进入以下路径Component config → FreeRTOS 
+5.使能Enable FreeRTOS trace facility和Enable FreeRTOS stats formatting functions
+还有Enable FreeRTOS to collect run time stats共3个选项，光标移动到上方回车即可使能，要按顺序来使能
+第一项使能后才会出现第二项，全部使能后按s保存，提升保存成功后退出即可
