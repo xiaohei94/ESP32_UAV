@@ -31,7 +31,7 @@
   - **通信链路**：UDP `5555` 端口进行双向遥测数据同步；同时保留 UDP `3333` 端口接入“匿名科创 Ano TC”上位机，进行实波追踪及 PID 调参。
 - **极简硬件选型**：使用 8520 空心杯电机、1S (3.7V) 锂电池直接供电；搭配外围 LED 提供快速的状态自检。
 
-<img src="./misc/fly_demo.gif" width="600"/>
+<img src="./misc/fly_demo.gif" width="600" style="display: block; margin: 0 auto;"/>
 
 ## 🚀 快速上手 (编译与运行)
 
